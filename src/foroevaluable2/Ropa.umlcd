@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_uUJGUAx1Ee-09pRUXYQ7Lw">
+  <modelElement href="Ropa.uml#_ubS3MAx1Ee-09pRUXYQ7Lw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vX30MAx1Ee-09pRUXYQ7Lw" sourceAnchor="0.0,104.0" targetAnchor="643.0,127.0" target="_vX6QcAx1Ee-09pRUXYQ7Lw" source="_vXxGgAx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ub5UIwx1Ee-09pRUXYQ7Lw"/>
+    <nameVisual xmi:id="_vX4bQgx1Ee-09pRUXYQ7Lw" text="">
+      <visualProperties xmi:id="_vaSPAAx1Ee-09pRUXYQ7Lw" position="-11.0,1.9999999999999911"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vX4bQwx1Ee-09pRUXYQ7Lw" aggregationKind="NONE" name="talla" navigable="true">
+      <modelElement href="Ropa.uml#_ub2Q0Qx1Ee-09pRUXYQ7Lw"/>
+      <visualProperties xmi:id="_vaRn-Ax1Ee-09pRUXYQ7Lw" position="-70.0,-57.0"/>
+      <visibility xmi:id="_vX5pYQx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX5pYAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vX4bRAx1Ee-09pRUXYQ7Lw" aggregationKind="NONE" name="">
+      <modelElement href="Ropa.uml#_ub5UJAx1Ee-09pRUXYQ7Lw"/>
+      <visualProperties xmi:id="_vaSPAQx1Ee-09pRUXYQ7Lw" position="14.0,1.9999999999999787"/>
+      <visibility xmi:id="_vX5pYwx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX5pYgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vX4bQAx1Ee-09pRUXYQ7Lw" sourceAnchor="122.0,0.0" targetAnchor="321.0,254.0" superClass="_vX6QcAx1Ee-09pRUXYQ7Lw" subClass="_vX1_AAx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubzNgAx1Ee-09pRUXYQ7Lw"/>
+    <bendpoints xmi:id="_9LOPUgx1Ee-09pRUXYQ7Lw" sourceY="-27" targetX="479" targetY="19"/>
+    <bendpoints xmi:id="_9LOPUwx1Ee-09pRUXYQ7Lw" sourceX="-479" sourceY="-27" targetY="19"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vX4bQQx1Ee-09pRUXYQ7Lw" sourceAnchor="112.0,0.0" targetAnchor="321.0,254.0" superClass="_vX6QcAx1Ee-09pRUXYQ7Lw" subClass="_vX0J0Ax1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubzNigx1Ee-09pRUXYQ7Lw"/>
+    <bendpoints xmi:id="_9LOPUAx1Ee-09pRUXYQ7Lw" sourceY="-20" targetX="-396" targetY="19"/>
+    <bendpoints xmi:id="_9LOPUQx1Ee-09pRUXYQ7Lw" sourceX="396" sourceY="-20" targetY="19"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vX-h4Ax1Ee-09pRUXYQ7Lw" sourceAnchor="429.0,162.0" targetAnchor="86.0,0.0" dashed="true" superClass="_vX960Ax1Ee-09pRUXYQ7Lw" subClass="_vYAXEAx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubxYUAx1Ee-09pRUXYQ7Lw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vX-h4Qx1Ee-09pRUXYQ7Lw" sourceAnchor="432.0,0.0" targetAnchor="321.0,254.0" superClass="_vX6QcAx1Ee-09pRUXYQ7Lw" subClass="_vYAXEAx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubx_ZQx1Ee-09pRUXYQ7Lw"/>
+    <bendpoints xmi:id="_9LOPVAx1Ee-09pRUXYQ7Lw" sourceY="-165" targetX="30" targetY="19"/>
+    <bendpoints xmi:id="_9LOPVQx1Ee-09pRUXYQ7Lw" sourceX="-30" sourceY="-165" targetY="19"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_vXxGgAx1Ee-09pRUXYQ7Lw" name="Tallaje" associationsOut="_vX30MAx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+    <visualProperties xmi:id="_vXxGgQx1Ee-09pRUXYQ7Lw" position="991.0,-114.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_vXxGggx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+      <modelElement href="Ropa.uml#_ubpcgQx1Ee-09pRUXYQ7Lw"/>
+    </stereotypes>
+    <visibility xmi:id="_vXxGgwx1Ee-09pRUXYQ7Lw" label="+"/>
+    <literals xmi:id="_vXxGhAx1Ee-09pRUXYQ7Lw" name="XXS">
+      <modelElement href="Ropa.uml#_ubpcggx1Ee-09pRUXYQ7Lw"/>
+    </literals>
+    <literals xmi:id="_vXxGhQx1Ee-09pRUXYQ7Lw" name="XS">
+      <modelElement href="Ropa.uml#_ubpcgwx1Ee-09pRUXYQ7Lw"/>
+    </literals>
+    <literals xmi:id="_vXxGhgx1Ee-09pRUXYQ7Lw" name="S">
+      <modelElement href="Ropa.uml#_ubpchAx1Ee-09pRUXYQ7Lw"/>
+    </literals>
+    <literals xmi:id="_vXxGhwx1Ee-09pRUXYQ7Lw" name="M">
+      <modelElement href="Ropa.uml#_ubpchQx1Ee-09pRUXYQ7Lw"/>
+    </literals>
+    <literals xmi:id="_vXxGiAx1Ee-09pRUXYQ7Lw" name="L">
+      <modelElement href="Ropa.uml#_ubqDkAx1Ee-09pRUXYQ7Lw"/>
+    </literals>
+    <literals xmi:id="_vXxGiQx1Ee-09pRUXYQ7Lw" name="XL">
+      <modelElement href="Ropa.uml#_ubqDkQx1Ee-09pRUXYQ7Lw"/>
+    </literals>
+    <literals xmi:id="_vXxGigx1Ee-09pRUXYQ7Lw" name="XXL">
+      <modelElement href="Ropa.uml#_ubqDkgx1Ee-09pRUXYQ7Lw"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vX9TwAx1Ee-09pRUXYQ7Lw" name="Main">
+    <modelElement href="Ropa.uml#_ublLEwx1Ee-09pRUXYQ7Lw"/>
+    <visualProperties xmi:id="_vX9TwQx1Ee-09pRUXYQ7Lw" position="1210.0,-30.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_vX9Twgx1Ee-09pRUXYQ7Lw" label="+"/>
+    <operations xmi:id="_vX9Twwx1Ee-09pRUXYQ7Lw" name="main" staticOperation="true">
+      <modelElement href="Ropa.uml#_ublyIAx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX9TxAx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX9TxQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vX9Txgx1Ee-09pRUXYQ7Lw" name="args">
+        <modelElement href="Ropa.uml#_ublyIQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX9Txwx1Ee-09pRUXYQ7Lw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_vX9TyAx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vX0J0Ax1Ee-09pRUXYQ7Lw" name="Pantalon" generalizations="_vX4bQQx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ublyIwx1Ee-09pRUXYQ7Lw"/>
+    <visualProperties xmi:id="_vX0J0Qx1Ee-09pRUXYQ7Lw" position="19.0,156.0" size="225.0,109.0"/>
+    <visibility xmi:id="_vX0J0gx1Ee-09pRUXYQ7Lw" label="+"/>
+    <operations xmi:id="_vX0J0wx1Ee-09pRUXYQ7Lw" name="descripcion">
+      <modelElement href="Ropa.uml#_ubmZMAx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vX0J1Ax1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ubmZMQx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vX0J1Qx1Ee-09pRUXYQ7Lw" name="Annotations">
+        <modelElement href="Ropa.uml#_ubmZMgx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vX0J1gx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX0J1wx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vX0J2Ax1Ee-09pRUXYQ7Lw" name="cuidados">
+      <modelElement href="Ropa.uml#_ubmZNAx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vX0J2Qx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ubmZNQx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vX0J2gx1Ee-09pRUXYQ7Lw" name="Annotations">
+        <modelElement href="Ropa.uml#_ubmZNgx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vX0J2wx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX0J3Ax1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vX0J3Qx1Ee-09pRUXYQ7Lw" name="Pantalon">
+      <modelElement href="Ropa.uml#_ubzNgQx1Ee-09pRUXYQ7Lw"/>
+      <keywords xmi:id="_vX0J3gx1Ee-09pRUXYQ7Lw" keyword="create"/>
+      <visibility xmi:id="_vX0J3wx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX0J4Ax1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vX0J4Qx1Ee-09pRUXYQ7Lw">
+        <modelElement href="Ropa.uml#_ubzNiQx1Ee-09pRUXYQ7Lw"/>
+        <type xmi:id="_vX0J4gx1Ee-09pRUXYQ7Lw" name="Pantalon">
+          <modelElement href="Ropa.uml#_ublyIwx1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vX0J4wx1Ee-09pRUXYQ7Lw" name="nombre">
+        <modelElement href="Ropa.uml#_ubzNggx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX0J5Ax1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX0J5Qx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX0J5gx1Ee-09pRUXYQ7Lw" name="talla">
+        <modelElement href="Ropa.uml#_ubzNgwx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX0J5wx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX0J6Ax1Ee-09pRUXYQ7Lw" name="Tallaje">
+          <modelElement href="Ropa.uml#_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX0J6Qx1Ee-09pRUXYQ7Lw" name="color">
+        <modelElement href="Ropa.uml#_ubzNhAx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX0J6gx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX0J6wx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX0J7Ax1Ee-09pRUXYQ7Lw" name="cantidad">
+        <modelElement href="Ropa.uml#_ubzNhQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX0J7Qx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX0J7gx1Ee-09pRUXYQ7Lw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX0J7wx1Ee-09pRUXYQ7Lw" name="precio">
+        <modelElement href="Ropa.uml#_ubzNhgx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX0J8Ax1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX0J8Qx1Ee-09pRUXYQ7Lw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vX1_AAx1Ee-09pRUXYQ7Lw" name="Camiseta" generalizations="_vX4bQAx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubj88Ax1Ee-09pRUXYQ7Lw"/>
+    <visualProperties xmi:id="_vX1_AQx1Ee-09pRUXYQ7Lw" position="884.0,163.0" size="230.0,109.0"/>
+    <visibility xmi:id="_vX1_Agx1Ee-09pRUXYQ7Lw" label="+"/>
+    <operations xmi:id="_vX1_Awx1Ee-09pRUXYQ7Lw" name="descripcion">
+      <modelElement href="Ropa.uml#_ubkkAAx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vX1_BAx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ubkkAQx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vX1_BQx1Ee-09pRUXYQ7Lw" name="Annotations">
+        <modelElement href="Ropa.uml#_ubkkAgx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vX1_Bgx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX1_Bwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vX1_CAx1Ee-09pRUXYQ7Lw" name="cuidados">
+      <modelElement href="Ropa.uml#_ubkkBAx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vX1_CQx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ublLEAx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vX1_Cgx1Ee-09pRUXYQ7Lw" name="Annotations">
+        <modelElement href="Ropa.uml#_ublLEQx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vX1_Cwx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX1_DAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vX1_DQx1Ee-09pRUXYQ7Lw" name="Camiseta">
+      <modelElement href="Ropa.uml#_ubymcAx1Ee-09pRUXYQ7Lw"/>
+      <keywords xmi:id="_vX1_Dgx1Ee-09pRUXYQ7Lw" keyword="create"/>
+      <visibility xmi:id="_vX1_Dwx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX1_EAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vX1_EQx1Ee-09pRUXYQ7Lw">
+        <modelElement href="Ropa.uml#_ubymeAx1Ee-09pRUXYQ7Lw"/>
+        <type xmi:id="_vX1_Egx1Ee-09pRUXYQ7Lw" name="Camiseta">
+          <modelElement href="Ropa.uml#_ubj88Ax1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vX1_Ewx1Ee-09pRUXYQ7Lw" name="nombre">
+        <modelElement href="Ropa.uml#_ubymcQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX1_FAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX1_FQx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX1_Fgx1Ee-09pRUXYQ7Lw" name="talla">
+        <modelElement href="Ropa.uml#_ubymcgx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX1_Fwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX1_GAx1Ee-09pRUXYQ7Lw" name="Tallaje">
+          <modelElement href="Ropa.uml#_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX1_GQx1Ee-09pRUXYQ7Lw" name="color">
+        <modelElement href="Ropa.uml#_ubymcwx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX1_Ggx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX1_Gwx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX1_HAx1Ee-09pRUXYQ7Lw" name="cantidad">
+        <modelElement href="Ropa.uml#_ubymdAx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX1_HQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX1_Hgx1Ee-09pRUXYQ7Lw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX1_Hwx1Ee-09pRUXYQ7Lw" name="precio">
+        <modelElement href="Ropa.uml#_ubymdQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX1_IAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX1_IQx1Ee-09pRUXYQ7Lw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vYAXEAx1Ee-09pRUXYQ7Lw" name="Calcetines" generalizations="_vX-h4Ax1Ee-09pRUXYQ7Lw _vX-h4Qx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubiHwAx1Ee-09pRUXYQ7Lw"/>
+    <visualProperties xmi:id="_vYAXEQx1Ee-09pRUXYQ7Lw" position="125.0,301.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vYAXEgx1Ee-09pRUXYQ7Lw" label="+"/>
+    <attributes xmi:id="_vYAXEwx1Ee-09pRUXYQ7Lw" defaultValue="false" name="personaliza">
+      <modelElement href="Ropa.uml#_ub1CsAx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vYAXFAx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ub1Csgx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vYAXFQx1Ee-09pRUXYQ7Lw" label="-"/>
+      <cardinality xmi:id="_vYAXFgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <type xmi:id="_vYAXFwx1Ee-09pRUXYQ7Lw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vYAXGAx1Ee-09pRUXYQ7Lw" name="descripcion">
+      <modelElement href="Ropa.uml#_ubiu0Ax1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vYAXGQx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ubiu0Qx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vYAXGgx1Ee-09pRUXYQ7Lw" name="Annotations">
+        <modelElement href="Ropa.uml#_ubiu0gx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vYAXGwx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vYAXHAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vYAXHQx1Ee-09pRUXYQ7Lw" name="cuidados">
+      <modelElement href="Ropa.uml#_ubiu1Ax1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vYAXHgx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ubjV4Ax1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vYAXHwx1Ee-09pRUXYQ7Lw" name="Annotations">
+        <modelElement href="Ropa.uml#_ubjV4Qx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vYAXIAx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vYAXIQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vYAXIgx1Ee-09pRUXYQ7Lw" name="agregaDisenio">
+      <modelElement href="Ropa.uml#_ubjV4wx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vYAXIwx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ubjV5Ax1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vYAXJAx1Ee-09pRUXYQ7Lw" name="Annotations">
+        <modelElement href="Ropa.uml#_ubjV5Qx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vYAXJQx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vYAXJgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vYAXJwx1Ee-09pRUXYQ7Lw" name="Calcetines">
+      <modelElement href="Ropa.uml#_ubxYUQx1Ee-09pRUXYQ7Lw"/>
+      <keywords xmi:id="_vYAXKAx1Ee-09pRUXYQ7Lw" keyword="create"/>
+      <visibility xmi:id="_vYAXKQx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vYAXKgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vYAXKwx1Ee-09pRUXYQ7Lw">
+        <modelElement href="Ropa.uml#_ubx_ZAx1Ee-09pRUXYQ7Lw"/>
+        <type xmi:id="_vYAXLAx1Ee-09pRUXYQ7Lw" name="Calcetines">
+          <modelElement href="Ropa.uml#_ubiHwAx1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vYAXLQx1Ee-09pRUXYQ7Lw" name="nombre">
+        <modelElement href="Ropa.uml#_ubxYUgx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vYAXLgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vYAXLwx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vYAXMAx1Ee-09pRUXYQ7Lw" name="talla">
+        <modelElement href="Ropa.uml#_ubxYUwx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vYAXMQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vYAXMgx1Ee-09pRUXYQ7Lw" name="Tallaje">
+          <modelElement href="Ropa.uml#_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vYAXMwx1Ee-09pRUXYQ7Lw" name="color">
+        <modelElement href="Ropa.uml#_ubxYVAx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vYAXNAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vYAXNQx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vYAXNgx1Ee-09pRUXYQ7Lw" name="cantidad">
+        <modelElement href="Ropa.uml#_ubxYVQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vYAXNwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vYAXOAx1Ee-09pRUXYQ7Lw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vYAXOQx1Ee-09pRUXYQ7Lw" name="precio">
+        <modelElement href="Ropa.uml#_ubx_YAx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vYAXOgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vYAXOwx1Ee-09pRUXYQ7Lw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vYAXPAx1Ee-09pRUXYQ7Lw" name="personaliza">
+        <modelElement href="Ropa.uml#_ubx_YQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vYAXPQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vYAXPgx1Ee-09pRUXYQ7Lw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_vX960Ax1Ee-09pRUXYQ7Lw" name="Personalizacion" subclassedBy="_vX-h4Ax1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubnAQAx1Ee-09pRUXYQ7Lw"/>
+    <visualProperties xmi:id="_vX960Qx1Ee-09pRUXYQ7Lw" position="468.0,530.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vX960gx1Ee-09pRUXYQ7Lw" label="+"/>
+    <operations xmi:id="_vX960wx1Ee-09pRUXYQ7Lw" name="agregaDisenio">
+      <modelElement href="Ropa.uml#_ubnAQQx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX961Ax1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX961Qx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vX6QcAx1Ee-09pRUXYQ7Lw" name="Ropa" abstractClass="true" associationsIn="_vX30MAx1Ee-09pRUXYQ7Lw" subclassedBy="_vX4bQAx1Ee-09pRUXYQ7Lw _vX4bQQx1Ee-09pRUXYQ7Lw _vX-h4Qx1Ee-09pRUXYQ7Lw">
+    <modelElement href="Ropa.uml#_ubnAQgx1Ee-09pRUXYQ7Lw"/>
+    <visualProperties xmi:id="_vX6QcQx1Ee-09pRUXYQ7Lw" position="206.0,-137.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vX6Qcgx1Ee-09pRUXYQ7Lw" label="+"/>
+    <attributes xmi:id="_vX6Qcwx1Ee-09pRUXYQ7Lw" name="nombre">
+      <modelElement href="Ropa.uml#_ub1pwAx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vX6QdAx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ub1pwQx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vX6QdQx1Ee-09pRUXYQ7Lw" name="MultiDeclaration">
+        <modelElement href="Ropa.uml#_ub1pwgx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vX6Qdgx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6Qdwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <type xmi:id="_vX6QeAx1Ee-09pRUXYQ7Lw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vX6QeQx1Ee-09pRUXYQ7Lw" name="talla">
+      <modelElement href="Ropa.uml#_ub2Q0Qx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX6Qegx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6Qewx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <type xmi:id="_vX6QfAx1Ee-09pRUXYQ7Lw" name="Tallaje">
+        <modelElement href="Ropa.uml#_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vX6QfQx1Ee-09pRUXYQ7Lw" name="cantidad">
+      <modelElement href="Ropa.uml#_ub2Q0gx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX6Qfgx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6Qfwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <type xmi:id="_vX6QgAx1Ee-09pRUXYQ7Lw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vX6QgQx1Ee-09pRUXYQ7Lw" name="precio">
+      <modelElement href="Ropa.uml#_ub2Q0wx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX6Qggx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6Qgwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <type xmi:id="_vX6QhAx1Ee-09pRUXYQ7Lw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vX6QhQx1Ee-09pRUXYQ7Lw" name="color">
+      <modelElement href="Ropa.uml#_ub5UIAx1Ee-09pRUXYQ7Lw"/>
+      <stereotypes xmi:id="_vX6Qhgx1Ee-09pRUXYQ7Lw" name="MultiDeclaration">
+        <modelElement href="Ropa.uml#_ub5UIQx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vX6Qhwx1Ee-09pRUXYQ7Lw" name="LegacyStyledElement">
+        <modelElement href="Ropa.uml#_ub5UIgx1Ee-09pRUXYQ7Lw"/>
+      </stereotypes>
+      <visibility xmi:id="_vX6QiAx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6QiQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <type xmi:id="_vX6Qigx1Ee-09pRUXYQ7Lw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vX6Qiwx1Ee-09pRUXYQ7Lw" name="getColor">
+      <modelElement href="Ropa.uml#_ubnnUAx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX6QjAx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6QjQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vX6Qjgx1Ee-09pRUXYQ7Lw">
+        <modelElement href="Ropa.uml#_uboOYAx1Ee-09pRUXYQ7Lw"/>
+        <type xmi:id="_vX6Qjwx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vX6QkAx1Ee-09pRUXYQ7Lw" name="setColor">
+      <modelElement href="Ropa.uml#_uboOYQx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX6QkQx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6Qkgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vX6Qkwx1Ee-09pRUXYQ7Lw" name="color">
+        <modelElement href="Ropa.uml#_uboOYgx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX6QlAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX6QlQx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vX6Qlgx1Ee-09pRUXYQ7Lw" abstractOperation="true" name="descripcion">
+      <modelElement href="Ropa.uml#_uboOYwx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX6Qlwx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6QmAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vX6QmQx1Ee-09pRUXYQ7Lw" abstractOperation="true" name="cuidados">
+      <modelElement href="Ropa.uml#_uboOZAx1Ee-09pRUXYQ7Lw"/>
+      <visibility xmi:id="_vX6Qmgx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6Qmwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vX6QnAx1Ee-09pRUXYQ7Lw" name="Ropa">
+      <modelElement href="Ropa.uml#_ubz0kAx1Ee-09pRUXYQ7Lw"/>
+      <keywords xmi:id="_vX6QnQx1Ee-09pRUXYQ7Lw" keyword="create"/>
+      <visibility xmi:id="_vX6Qngx1Ee-09pRUXYQ7Lw" label="+"/>
+      <cardinality xmi:id="_vX6Qnwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vX6QoAx1Ee-09pRUXYQ7Lw">
+        <modelElement href="Ropa.uml#_ubz0mAx1Ee-09pRUXYQ7Lw"/>
+        <type xmi:id="_vX6QoQx1Ee-09pRUXYQ7Lw" name="Ropa">
+          <modelElement href="Ropa.uml#_ubnAQgx1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vX6Qogx1Ee-09pRUXYQ7Lw" name="nombre">
+        <modelElement href="Ropa.uml#_ubz0kQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX6Qowx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX6QpAx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX6QpQx1Ee-09pRUXYQ7Lw" name="talla">
+        <modelElement href="Ropa.uml#_ubz0kgx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX6Qpgx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX6Qpwx1Ee-09pRUXYQ7Lw" name="Tallaje">
+          <modelElement href="Ropa.uml#_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX6QqAx1Ee-09pRUXYQ7Lw" name="color">
+        <modelElement href="Ropa.uml#_ubz0kwx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX6QqQx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX6Qqgx1Ee-09pRUXYQ7Lw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX6Qqwx1Ee-09pRUXYQ7Lw" name="cantidad">
+        <modelElement href="Ropa.uml#_ubz0lAx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX6QrAx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX6QrQx1Ee-09pRUXYQ7Lw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vX6Qrgx1Ee-09pRUXYQ7Lw" name="precio">
+        <modelElement href="Ropa.uml#_ubz0lQx1Ee-09pRUXYQ7Lw"/>
+        <cardinality xmi:id="_vX6Qrwx1Ee-09pRUXYQ7Lw" label="1" max="1" min="1"/>
+        <type xmi:id="_vX6QsAx1Ee-09pRUXYQ7Lw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

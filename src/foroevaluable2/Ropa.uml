@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_uTiCUAx1Ee-09pRUXYQ7Lw" name="Ropa">
+    <eAnnotations xmi:id="_uVxeAAx1Ee-09pRUXYQ7Lw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_uVxeAQx1Ee-09pRUXYQ7Lw" source="codegen">
+        <details xmi:id="_uVxeAgx1Ee-09pRUXYQ7Lw" key="codegenDirectory" value="/foroevaluable2/src"/>
+        <details xmi:id="_vXuqQAx1Ee-09pRUXYQ7Lw" key="AssociatedSourceCode" value="/foroevaluable2/src/foroevaluable2/Calcetines.java;1502987921/1;/foroevaluable2/src/foroevaluable2/Camiseta.java;2450368052/1;/foroevaluable2/src/foroevaluable2/Main.java;1447258387/1;/foroevaluable2/src/foroevaluable2/Pantalon.java;4115527938/1;/foroevaluable2/src/foroevaluable2/Personalizacion.java;2582474073/1;/foroevaluable2/src/foroevaluable2/Ropa.java;2897017407/1;/foroevaluable2/src/foroevaluable2/Tallaje.java;1583474535/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ubOlwAx1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPM0Ax1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPM0Qx1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPM0gx1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPM0wx1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPM1Ax1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPz4Ax1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPz4Qx1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ubPz4gx1Ee-09pRUXYQ7Lw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ubS3MAx1Ee-09pRUXYQ7Lw" name="foroevaluable2">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ubiHwAx1Ee-09pRUXYQ7Lw" name="Calcetines">
+        <generalization xmi:id="_ubx_ZQx1Ee-09pRUXYQ7Lw" general="_ubnAQgx1Ee-09pRUXYQ7Lw"/>
+        <ownedAttribute xmi:id="_ub1CsAx1Ee-09pRUXYQ7Lw" name="personaliza" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ub1CsQx1Ee-09pRUXYQ7Lw" value="false"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_ubxYUAx1Ee-09pRUXYQ7Lw" client="_ubiHwAx1Ee-09pRUXYQ7Lw" supplier="_ubnAQAx1Ee-09pRUXYQ7Lw" contract="_ubnAQAx1Ee-09pRUXYQ7Lw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub234Ax1Ee-09pRUXYQ7Lw" name="Calcetines" specification="_ubxYUQx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ub234Qx1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub234gx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ub234wx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub235Ax1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub235Qx1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub235gx1Ee-09pRUXYQ7Lw" name="personaliza">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub235wx1Ee-09pRUXYQ7Lw" type="_ubiHwAx1Ee-09pRUXYQ7Lw" direction="return"/>
+          <language>java</language>
+          <body>super(nombre, talla, color, cantidad, precio);&#xD;
+		this.personaliza=personaliza;&#xD;
+		agregaDisenio();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub3e8Ax1Ee-09pRUXYQ7Lw" name="descripcion" specification="_ubiu0Ax1Ee-09pRUXYQ7Lw">
+          <language>java</language>
+          <body>System.out.println(&quot;Algodón (85%), mezcla de poliamida (12%) y elastano (3%)&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub3e8Qx1Ee-09pRUXYQ7Lw" name="cuidados" specification="_ubiu1Ax1Ee-09pRUXYQ7Lw">
+          <language>java</language>
+          <body>System.out.println(&quot;Lavar del revés en agua fría para mantener la forma y el tamaño.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub3e8gx1Ee-09pRUXYQ7Lw" name="agregaDisenio" specification="_ubjV4wx1Ee-09pRUXYQ7Lw">
+          <language>java</language>
+          <body>if(personaliza) setPrecio(getPrecio()+3);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ubiu0Ax1Ee-09pRUXYQ7Lw" name="descripcion" method="_ub3e8Ax1Ee-09pRUXYQ7Lw"/>
+        <ownedOperation xmi:id="_ubiu1Ax1Ee-09pRUXYQ7Lw" name="cuidados" method="_ub3e8Qx1Ee-09pRUXYQ7Lw"/>
+        <ownedOperation xmi:id="_ubjV4wx1Ee-09pRUXYQ7Lw" name="agregaDisenio" method="_ub3e8gx1Ee-09pRUXYQ7Lw"/>
+        <ownedOperation xmi:id="_ubxYUQx1Ee-09pRUXYQ7Lw" name="Calcetines" method="_ub234Ax1Ee-09pRUXYQ7Lw">
+          <eAnnotations xmi:id="_ubx_Ygx1Ee-09pRUXYQ7Lw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ubx_Ywx1Ee-09pRUXYQ7Lw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ubxYUgx1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubxYUwx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ubxYVAx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubxYVQx1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubx_YAx1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubx_YQx1Ee-09pRUXYQ7Lw" name="personaliza">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubx_ZAx1Ee-09pRUXYQ7Lw" type="_ubiHwAx1Ee-09pRUXYQ7Lw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ubj88Ax1Ee-09pRUXYQ7Lw" name="Camiseta">
+        <generalization xmi:id="_ubzNgAx1Ee-09pRUXYQ7Lw" general="_ubnAQgx1Ee-09pRUXYQ7Lw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub3e8wx1Ee-09pRUXYQ7Lw" name="Camiseta" specification="_ubymcAx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ub3e9Ax1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub3e9Qx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ub3e9gx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub3e9wx1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub3e-Ax1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub3e-Qx1Ee-09pRUXYQ7Lw" type="_ubj88Ax1Ee-09pRUXYQ7Lw" direction="return"/>
+          <language>java</language>
+          <body>super(nombre, talla, color, cantidad, precio);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub3e-gx1Ee-09pRUXYQ7Lw" name="descripcion" specification="_ubkkAAx1Ee-09pRUXYQ7Lw">
+          <language>java</language>
+          <body>System.out.println(&quot;Composición 100% algodón.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub3e-wx1Ee-09pRUXYQ7Lw" name="cuidados" specification="_ubkkBAx1Ee-09pRUXYQ7Lw">
+          <language>java</language>
+          <body>System.out.println(&quot;Lavar del revés en frío (30ºC máximo).&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ubkkAAx1Ee-09pRUXYQ7Lw" name="descripcion" method="_ub3e-gx1Ee-09pRUXYQ7Lw"/>
+        <ownedOperation xmi:id="_ubkkBAx1Ee-09pRUXYQ7Lw" name="cuidados" method="_ub3e-wx1Ee-09pRUXYQ7Lw"/>
+        <ownedOperation xmi:id="_ubymcAx1Ee-09pRUXYQ7Lw" name="Camiseta" method="_ub3e8wx1Ee-09pRUXYQ7Lw">
+          <eAnnotations xmi:id="_ubymdgx1Ee-09pRUXYQ7Lw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ubymdwx1Ee-09pRUXYQ7Lw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ubymcQx1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubymcgx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ubymcwx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubymdAx1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubymdQx1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubymeAx1Ee-09pRUXYQ7Lw" type="_ubj88Ax1Ee-09pRUXYQ7Lw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ublLEwx1Ee-09pRUXYQ7Lw" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub3e_Ax1Ee-09pRUXYQ7Lw" name="main" specification="_ublyIAx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ub3e_Qx1Ee-09pRUXYQ7Lw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ub3e_gx1Ee-09pRUXYQ7Lw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+&#xD;
+		Camiseta camiseta1 = new Camiseta(&quot;Camiseta de rayas&quot;, Tallaje.L, &quot;Azul marino&quot;, 1, 7.95);&#xD;
+		Calcetines calcetines1= new Calcetines (&quot;Calcetines de rayas&quot;, Tallaje.M, &quot;Azul marino&quot;, 1, 2.95, true);&#xD;
+		Calcetines calcetines2= new Calcetines (&quot;Calcetines de círculos&quot;, Tallaje.S, &quot;Azul marino&quot;, 1, 2.95, false);&#xD;
+		&#xD;
+		System.out.println(camiseta1.getPrecio());&#xD;
+		System.out.println(calcetines1.getPrecio());&#xD;
+		System.out.println(calcetines2.getPrecio());&#xD;
+	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ublyIAx1Ee-09pRUXYQ7Lw" name="main" isStatic="true" method="_ub3e_Ax1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ublyIQx1Ee-09pRUXYQ7Lw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ublyIgx1Ee-09pRUXYQ7Lw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ublyIwx1Ee-09pRUXYQ7Lw" name="Pantalon">
+        <generalization xmi:id="_ubzNigx1Ee-09pRUXYQ7Lw" general="_ubnAQgx1Ee-09pRUXYQ7Lw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub4GAAx1Ee-09pRUXYQ7Lw" name="Pantalon" specification="_ubzNgQx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ub4GAQx1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4GAgx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ub4GAwx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4GBAx1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4GBQx1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4GBgx1Ee-09pRUXYQ7Lw" type="_ublyIwx1Ee-09pRUXYQ7Lw" direction="return"/>
+          <language>java</language>
+          <body>super(nombre, talla, color, cantidad, precio);&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub4GBwx1Ee-09pRUXYQ7Lw" name="descripcion" specification="_ubmZMAx1Ee-09pRUXYQ7Lw">
+          <language>java</language>
+          <body>System.out.println(&quot;Composición 100% algodón.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub4GCAx1Ee-09pRUXYQ7Lw" name="cuidados" specification="_ubmZNAx1Ee-09pRUXYQ7Lw">
+          <language>java</language>
+          <body>System.out.println(&quot;Lavar del revés en frío (30ºC máximo).&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ubmZMAx1Ee-09pRUXYQ7Lw" name="descripcion" method="_ub4GBwx1Ee-09pRUXYQ7Lw"/>
+        <ownedOperation xmi:id="_ubmZNAx1Ee-09pRUXYQ7Lw" name="cuidados" method="_ub4GCAx1Ee-09pRUXYQ7Lw"/>
+        <ownedOperation xmi:id="_ubzNgQx1Ee-09pRUXYQ7Lw" name="Pantalon" method="_ub4GAAx1Ee-09pRUXYQ7Lw">
+          <eAnnotations xmi:id="_ubzNhwx1Ee-09pRUXYQ7Lw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ubzNiAx1Ee-09pRUXYQ7Lw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ubzNggx1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubzNgwx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ubzNhAx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubzNhQx1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubzNhgx1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubzNiQx1Ee-09pRUXYQ7Lw" type="_ublyIwx1Ee-09pRUXYQ7Lw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ubnAQAx1Ee-09pRUXYQ7Lw" name="Personalizacion">
+        <ownedOperation xmi:id="_ubnAQQx1Ee-09pRUXYQ7Lw" name="agregaDisenio"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ubnAQgx1Ee-09pRUXYQ7Lw" name="Ropa" isAbstract="true">
+        <ownedAttribute xmi:id="_ub1pwAx1Ee-09pRUXYQ7Lw" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ub2Q0Qx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw" association="_ub5UIwx1Ee-09pRUXYQ7Lw"/>
+        <ownedAttribute xmi:id="_ub2Q0gx1Ee-09pRUXYQ7Lw" name="cantidad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ub2Q0wx1Ee-09pRUXYQ7Lw" name="precio">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ub5UIAx1Ee-09pRUXYQ7Lw" name="color">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub4tEAx1Ee-09pRUXYQ7Lw" name="Ropa" specification="_ubz0kAx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ub4tEQx1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4tEgx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ub4tEwx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4tFAx1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4tFQx1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ub4tFgx1Ee-09pRUXYQ7Lw" type="_ubnAQgx1Ee-09pRUXYQ7Lw" direction="return"/>
+          <language>java</language>
+          <body>this.nombre=nombre;&#xD;
+		this.talla=talla;&#xD;
+		this.color=color;&#xD;
+		this.cantidad=cantidad;&#xD;
+		this.precio=precio;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub4tFwx1Ee-09pRUXYQ7Lw" name="getColor" specification="_ubnnUAx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ub4tGAx1Ee-09pRUXYQ7Lw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return color;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ub4tGQx1Ee-09pRUXYQ7Lw" name="setColor" specification="_uboOYQx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_ub4tGgx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.color = color;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ubnnUAx1Ee-09pRUXYQ7Lw" name="getColor" method="_ub4tFwx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_uboOYAx1Ee-09pRUXYQ7Lw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uboOYQx1Ee-09pRUXYQ7Lw" name="setColor" method="_ub4tGQx1Ee-09pRUXYQ7Lw">
+          <ownedParameter xmi:id="_uboOYgx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uboOYwx1Ee-09pRUXYQ7Lw" name="descripcion" isAbstract="true"/>
+        <ownedOperation xmi:id="_uboOZAx1Ee-09pRUXYQ7Lw" name="cuidados" isAbstract="true"/>
+        <ownedOperation xmi:id="_ubz0kAx1Ee-09pRUXYQ7Lw" name="Ropa" method="_ub4tEAx1Ee-09pRUXYQ7Lw">
+          <eAnnotations xmi:id="_ubz0lgx1Ee-09pRUXYQ7Lw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ubz0lwx1Ee-09pRUXYQ7Lw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ubz0kQx1Ee-09pRUXYQ7Lw" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubz0kgx1Ee-09pRUXYQ7Lw" name="talla" type="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+          <ownedParameter xmi:id="_ubz0kwx1Ee-09pRUXYQ7Lw" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubz0lAx1Ee-09pRUXYQ7Lw" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubz0lQx1Ee-09pRUXYQ7Lw" name="precio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ubz0mAx1Ee-09pRUXYQ7Lw" type="_ubnAQgx1Ee-09pRUXYQ7Lw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_ubpcgAx1Ee-09pRUXYQ7Lw" name="Tallaje">
+        <ownedLiteral xmi:id="_ubpcggx1Ee-09pRUXYQ7Lw" name="XXS"/>
+        <ownedLiteral xmi:id="_ubpcgwx1Ee-09pRUXYQ7Lw" name="XS"/>
+        <ownedLiteral xmi:id="_ubpchAx1Ee-09pRUXYQ7Lw" name="S"/>
+        <ownedLiteral xmi:id="_ubpchQx1Ee-09pRUXYQ7Lw" name="M"/>
+        <ownedLiteral xmi:id="_ubqDkAx1Ee-09pRUXYQ7Lw" name="L"/>
+        <ownedLiteral xmi:id="_ubqDkQx1Ee-09pRUXYQ7Lw" name="XL"/>
+        <ownedLiteral xmi:id="_ubqDkgx1Ee-09pRUXYQ7Lw" name="XXL"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ub5UIwx1Ee-09pRUXYQ7Lw" name="" memberEnd="_ub2Q0Qx1Ee-09pRUXYQ7Lw _ub5UJAx1Ee-09pRUXYQ7Lw">
+        <ownedEnd xmi:id="_ub5UJAx1Ee-09pRUXYQ7Lw" name="" type="_ubnAQgx1Ee-09pRUXYQ7Lw" association="_ub5UIwx1Ee-09pRUXYQ7Lw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_uVxeAwx1Ee-09pRUXYQ7Lw">
+      <eAnnotations xmi:id="_uVxeBAx1Ee-09pRUXYQ7Lw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_uVyFEAx1Ee-09pRUXYQ7Lw" base_Package="_uTiCUAx1Ee-09pRUXYQ7Lw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ubiu0Qx1Ee-09pRUXYQ7Lw" base_Element="_ubiu0Ax1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:Annotations xmi:id="_ubiu0gx1Ee-09pRUXYQ7Lw" base_Element="_ubiu0Ax1Ee-09pRUXYQ7Lw">
+    <annotations xmi:id="_ubiu0wx1Ee-09pRUXYQ7Lw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ubjV4Ax1Ee-09pRUXYQ7Lw" base_Element="_ubiu1Ax1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:Annotations xmi:id="_ubjV4Qx1Ee-09pRUXYQ7Lw" base_Element="_ubiu1Ax1Ee-09pRUXYQ7Lw">
+    <annotations xmi:id="_ubjV4gx1Ee-09pRUXYQ7Lw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ubjV5Ax1Ee-09pRUXYQ7Lw" base_Element="_ubjV4wx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:Annotations xmi:id="_ubjV5Qx1Ee-09pRUXYQ7Lw" base_Element="_ubjV4wx1Ee-09pRUXYQ7Lw">
+    <annotations xmi:id="_ubjV5gx1Ee-09pRUXYQ7Lw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ubkkAQx1Ee-09pRUXYQ7Lw" base_Element="_ubkkAAx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:Annotations xmi:id="_ubkkAgx1Ee-09pRUXYQ7Lw" base_Element="_ubkkAAx1Ee-09pRUXYQ7Lw">
+    <annotations xmi:id="_ubkkAwx1Ee-09pRUXYQ7Lw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ublLEAx1Ee-09pRUXYQ7Lw" base_Element="_ubkkBAx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:Annotations xmi:id="_ublLEQx1Ee-09pRUXYQ7Lw" base_Element="_ubkkBAx1Ee-09pRUXYQ7Lw">
+    <annotations xmi:id="_ublLEgx1Ee-09pRUXYQ7Lw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ubmZMQx1Ee-09pRUXYQ7Lw" base_Element="_ubmZMAx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:Annotations xmi:id="_ubmZMgx1Ee-09pRUXYQ7Lw" base_Element="_ubmZMAx1Ee-09pRUXYQ7Lw">
+    <annotations xmi:id="_ubmZMwx1Ee-09pRUXYQ7Lw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ubmZNQx1Ee-09pRUXYQ7Lw" base_Element="_ubmZNAx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:Annotations xmi:id="_ubmZNgx1Ee-09pRUXYQ7Lw" base_Element="_ubmZNAx1Ee-09pRUXYQ7Lw">
+    <annotations xmi:id="_ubmZNwx1Ee-09pRUXYQ7Lw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ubpcgQx1Ee-09pRUXYQ7Lw" base_Element="_ubpcgAx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ub1Csgx1Ee-09pRUXYQ7Lw" base_Element="_ub1CsAx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ub1pwQx1Ee-09pRUXYQ7Lw" base_Element="_ub1pwAx1Ee-09pRUXYQ7Lw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_ub1pwwx1Ee-09pRUXYQ7Lw" name="getNombre" method="_ub4GCQx1Ee-09pRUXYQ7Lw">
+      <ownedParameter xmi:id="_ub2Q0Ax1Ee-09pRUXYQ7Lw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_ub1pxAx1Ee-09pRUXYQ7Lw" name="setNombre" method="_ub4GCwx1Ee-09pRUXYQ7Lw">
+      <ownedParameter xmi:id="_ub1pxQx1Ee-09pRUXYQ7Lw" name="nombre">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ub1pwgx1Ee-09pRUXYQ7Lw" base_Property="_ub1pwAx1Ee-09pRUXYQ7Lw" siblings="_ub5UIAx1Ee-09pRUXYQ7Lw" root="true"/>
+  <uml:OpaqueBehavior xmi:id="_ub4GCQx1Ee-09pRUXYQ7Lw" name="getNombre" specification="_ub1pwwx1Ee-09pRUXYQ7Lw">
+    <ownedParameter xmi:id="_ub4GCgx1Ee-09pRUXYQ7Lw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return nombre;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_ub4GCwx1Ee-09pRUXYQ7Lw" name="setNombre" specification="_ub1pxAx1Ee-09pRUXYQ7Lw">
+    <ownedParameter xmi:id="_ub4GDAx1Ee-09pRUXYQ7Lw" name="nombre">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.nombre = nombre;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ub5UIQx1Ee-09pRUXYQ7Lw" base_Property="_ub5UIAx1Ee-09pRUXYQ7Lw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ub5UIgx1Ee-09pRUXYQ7Lw" base_Element="_ub5UIAx1Ee-09pRUXYQ7Lw"/>
+</xmi:XMI>
